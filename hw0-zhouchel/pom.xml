@@ -1,13 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>edu.cmu.lti.11791.f14.hw0</groupId>
+	<groupId>edu.cmu.lti.11791.f13.hw0</groupId>
 	<artifactId>hw0-zhouchel</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.7</version>
 	<scm>
-		<url>scm:git:https://github.com/chouclee/hw0-zhouchel.git</url>
-		<developerConnection>scm:git:[fetch=]https://github.com/chouclee/hw0-zhouchel.git[push=]git@github.com:chouclee/hw0-zhouchel.git</developerConnection>
-	</scm>
+		<connection>scm:git:git@github.com:choulee/hw0-zhouchel.git</connection>
+		<developerConnection>scm:git:git@github.com:chouclee/hw0-zhouchel.git</developerConnection>
+	  <tag>hw0-zhouchel-0.0.7</tag>
+  </scm>
 	<repositories>
 		<repository>
 			<id>deployment</id>
@@ -17,13 +17,11 @@
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
-			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/
-        course-releases</url>
+			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/
-    course-snapshots</url>
+			<url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/course-snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<build>
@@ -39,7 +37,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>2.2.1</version>
+				<version>2.5</version>
 				<executions>
 					<execution>
 						<id>default</id>
@@ -55,16 +53,16 @@
 		</plugins>
 	</build>
 	<dependencies>
-    <dependency>
-        <groupId>edu.stanford.nlp</groupId>
-        <artifactId>stanford-corenlp</artifactId>
-        <version>3.4</version>
-    </dependency>
-    <dependency>
-        <groupId>edu.stanford.nlp</groupId>
-        <artifactId>stanford-corenlp</artifactId>
-        <version>3.4</version>
-        <classifier>models</classifier>
-    </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.4</version>
+		</dependency>
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.4</version>
+			<classifier>models</classifier>
+		</dependency>
+	</dependencies>
 </project>
