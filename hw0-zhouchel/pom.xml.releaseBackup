@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.cmu.lti.11791.f13.hw0</groupId>
 	<artifactId>hw0-zhouchel</artifactId>
@@ -6,7 +7,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:choulee/hw0-zhouchel.git</connection>
 		<developerConnection>scm:git:git@github.com:chouclee/hw0-zhouchel.git</developerConnection>
-    </scm>
+	</scm>
 	<repositories>
 		<repository>
 			<id>deployment</id>
@@ -28,7 +29,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
 				<configuration>
 					<source>1.6</source>
 					<target>1.6</target>
