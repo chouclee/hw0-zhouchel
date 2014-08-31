@@ -16,7 +16,7 @@ public class DependencyExample {
   * Tokenize a sentence in the argument, and print out
   * the tokens to the console.
   *
-  * @param args
+  * param args:
   *          Set the first argument as the sentence to
   *          be tokenized.
   *
