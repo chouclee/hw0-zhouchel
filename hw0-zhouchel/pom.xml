@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.
-apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven. apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.cmu.lti.11791.f14.hw0</groupId>
 	<artifactId>hw0-zhouchel</artifactId>
@@ -10,7 +8,7 @@ apache.org/xsd/maven-4.0.0.xsd">
 		</connection>
 		<developerConnection>scm:git:git@github.com:chouclee/hw0-zhouchel.git
 		</developerConnection>
-	</scm>
+  </scm>
 	<repositories>
 		<repository>
 			<id>deployment</id>
