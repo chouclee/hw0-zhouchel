@@ -46,7 +46,7 @@
 							<goal>perform</goal>
 						</goals>
 						<configuration>
-							<arguments>-f hw0-zhouchel/pom.xml</arguments>
+							
 							<pomFileName>hw0-zhouchel/pom.xml</pomFileName>
 						</configuration>
 					</execution>
