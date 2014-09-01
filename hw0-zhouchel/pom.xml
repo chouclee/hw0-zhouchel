@@ -8,7 +8,6 @@
 		</connection>
 		<developerConnection>scm:git:git@github.com:chouclee/hw0-zhouchel.git
 		</developerConnection>
-    <tag>hw0-zhouchel-0.0.16</tag>
   </scm>
 	<repositories>
 		<repository>
